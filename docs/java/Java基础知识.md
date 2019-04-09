@@ -451,6 +451,8 @@ final关键字主要用在三个地方：变量、方法、类。
 
 transient关键字的作用是：阻止实例中那些用此关键字修饰的的变量序列化；当对象被反序列化时，被transient修饰的变量值不会被持久化和恢复。transient只能修饰变量，不能修饰类和方法。
 
+e.g. https://github.com/zigar/JavaGuide_code/blob/master/src/TransientTest.java
+
 ## 34 获取用键盘输入常用的的两种方法
 
 方法1：通过 Scanner
