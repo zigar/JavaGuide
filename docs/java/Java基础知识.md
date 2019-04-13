@@ -420,6 +420,9 @@ final关键字主要用在三个地方：变量、方法、类。
 - **public string getLocalizedMessage()**:返回异常对象的本地化信息。使用Throwable的子类覆盖这个方法，可以声称本地化信息。如果子类没有覆盖该方法，则该方法返回的信息与getMessage（）返回的结果相同
 - **public void printStackTrace()**:在控制台上打印Throwable对象封装的异常信息
 
+区别：
+https://www.jianshu.com/p/f044bb9d78db
+
 ### 异常处理总结
 
 - **try 块：**用于捕获异常。其后可接零个或多个catch块，如果没有catch块，则必须跟一个finally块。
